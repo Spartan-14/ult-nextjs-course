@@ -4,12 +4,8 @@ import Header from "@/components/header";
 import {useEffect} from "react";
 
 export default function RootLayout({children}) {
-    return (
-        <html lang="en">
-        <body>
-        <Header/>
-        {children}
-        </body>
-        </html>
-    );
+    useEffect(() => {
+        console.log(`user has visited a page.`)
+    }, [])
+    return <div>{children}</div>
 }
