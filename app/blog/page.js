@@ -2,6 +2,8 @@ import React from 'react';
 
 export default function BlogPage() {
   return (
-      <div>Blog page</div>
+      <div>
+        <h1>Blog page</h1>
+        </div>
   )
 }
