@@ -1,7 +1,6 @@
 "use client";
 import "./globals.css";
 import Header from "@/components/header";
-import {useEffect} from "react";
 
 export default function RootLayout({children}) {
     return (
